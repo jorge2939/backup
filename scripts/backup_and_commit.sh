@@ -15,7 +15,7 @@ fi
 # Crear directorios si no existen
 mkdir -p "$BACKUP_DIR"
 touch "$LOG_FILE"
-chmod 644 "$LOG_FILE"
+chmod 7 "$LOG_FILE"
 
 # Entrar al directorio
 cd "$PROJECT_DIR" || { echo "Error: No se pudo acceder a $PROJECT_DIR" >> "$LOG_FILE"; exit 1; }
