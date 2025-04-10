@@ -1,0 +1,20 @@
+[2025-04-10 15:40:52] Iniciando proceso...
+En la rama main
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+  (confirma o descarta el contenido sin seguimiento o modificado en los sub-módulos)
+	modificados:     scripts (contenido modificado)
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+Agent pid 41886
+Identity added: /home/jorge/.ssh/id_rsa (root@jorge-System-Product-Name)
+To https://github.com/jorge2939/backup.git
+ ! [rejected]        main -> main (fetch first)
+error: falló el empuje de algunas referencias a 'https://github.com/jorge2939/backup.git'
+ayuda: Updates were rejected because the remote contains work that you do not
+ayuda: have locally. This is usually caused by another repository pushing to
+ayuda: the same ref. If you want to integrate the remote changes, use
+ayuda: 'git pull' before pushing again.
+ayuda: See the 'Note about fast-forwards' in 'git push --help' for details.
+[2025-04-10 15:41:23] Proceso completado con estado: 0
