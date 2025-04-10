@@ -25,7 +25,7 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] Iniciando proceso..." >> "$LOG_FILE"
 
 # 1. Hacer backup
 mkdir -p "$BACKUP_DIR"
-tar -czf "$BACKUP_DIR/backup_$(date +%Y%m%d%H%M%S).tar.gz" --absolute-names "$PROJECT_DIR/src" >> "$LOG_FILE" 2>&1
+tar -czf "$BACKUP_DIR/backup_$(date +%Y%m%d%H%M%S).tar.gz" --absolute-names "$PROJECT_DIR" >> "$LOG_FILE" 2>&1
 
 # 2. Actualizar repo git
 # Agregar todos los cambios, incluyendo submodulos si existen
